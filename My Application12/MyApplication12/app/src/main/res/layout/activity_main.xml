@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/purple_200">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Dr AIT"
+            android:textSize="75dp"
+            android:textColor="#EC1010"
+            android:textAlignment="center"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:background="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dhiraj Kumar Mandal"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#1F5EBF"
+        android:textAlignment="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone: 9980425890"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: 1da19cs045.cs@drait.edu.in"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+</LinearLayout>

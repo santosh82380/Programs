@@ -1,0 +1,15 @@
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{D27CDB6E-AE6D-11cf-96B8-444553540000}</em:id>
+    <em:name>Shockwave Flash</em:name>
+    <em:version>16.0.0.287</em:version>
+    <em:targetApplication>
+      <Description>
+        <em:id>{5fefd246-3b71-4cab-85ee-643c4b0c5349}</em:id>
+        <em:minVersion>1.0</em:minVersion>
+        <em:maxVersion>4.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <em:unpack>true</em:unpack>
+  </Description>
+</RDF>

@@ -1,0 +1,14 @@
+[
+  { "name": "Kathmandu ",
+    "lat": "27.7172 N ",
+    "long": "85.3240 N ",
+    "temperature":"10 ",
+    "humidity": "92 %"
+  },
+  { "name": "Bardibas",
+    "lat": "27.0425 N ",
+    "long": "85.8691 E ",
+    "temperature":"25 ",
+    "humidity": "74 %"
+  }
+]
